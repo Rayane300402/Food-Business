@@ -60,9 +60,17 @@
     font-family: var(--playfair-display);
     color: var(--secondary-color);
 }
+/* should i keep it? */
+.center{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
 .hero-content-info p{
-    font-size: 18pxpx;
+    font-size: 18px;
     font-weight: 400;
     font-family: var(--plus-jakarta-sans);
     color: var(--secondary-color);
@@ -89,6 +97,10 @@
     cursor: pointer;
     font-weight: 500;
     line-height: 23px;
+}
+
+.hero-content__order-button:hover{
+    background: var(--primary-color);
 }
 
 .hero-content__play-button{
